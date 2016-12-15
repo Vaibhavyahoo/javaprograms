@@ -1,0 +1,10 @@
+public class Arraycopy
+{
+public static void main(String []args)
+{
+char[] copyfrom={'a','s','d','f','g','h','j','k','l','p','o','i','u','y','t','e','w','q'};
+char[] copyto= new char [5];
+System.arraycopy(copyfrom,1,copyto,0,5);
+System.out.println(new String(copyto));
+}
+}
